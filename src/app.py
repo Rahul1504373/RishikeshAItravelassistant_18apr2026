@@ -28,7 +28,7 @@ with st.sidebar:
 
 # Main content
 st.subheader("❓ Ask Your Question")
-query = st.text_input("Enter your travel question (e.g., Best places to visit in Paris):")
+query = st.text_input("Enter your travel question (e.g., Best places to visit in RISHIKESH):")
 
 if st.button("Ask"):
     if query.strip():

@@ -1,5 +1,12 @@
-# Environments
+# Never commit these!
 .env
-.venv
-env/
 venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+.DS_Store
+data/
+*.pdf
